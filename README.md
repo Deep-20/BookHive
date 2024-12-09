@@ -43,15 +43,8 @@ Replace DB_Password with your database password
 BookHive is the database name for this app
 
 3. **Install Dependencies**
-   From root folder
 ```bash
-cd client
-npm install
-```
-
-  From root folder
-```bash
-cd server
+# From the root directory
 npm install
 ```
 
