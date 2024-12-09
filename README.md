@@ -20,8 +20,8 @@ cd library-management
 2. **Environment Setup**
 Create a `.env` file in the server directory with the following variables:
 ```
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET="secret"
+MONGO_URI=your_mongodb_connection_string
+SESSION_SECRET="secret"
 PORT=8080
 ```
 
@@ -36,7 +36,7 @@ To get MONGODB_URI,
   8) You will find the string there
 
 Your MONGODB_URI will look as follows
-mongodb+srv://<DB_Username>:<DB_Password>@cluster0.nyxubl7.mongodb.net/BookHive?retryWrites=true&w=majority&appName=Cluster0
+"mongodb+srv://<DB_Username>:<DB_Password>@cluster0.nyxubl7.mongodb.net/BookHive?retryWrites=true&w=majority&appName=Cluster0"
 
 Replace DB_Username with your database username
 Replace DB_Password with your database password
