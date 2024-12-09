@@ -14,14 +14,17 @@ A fullstack web application for library management built using the MERN stack (M
 1. **Clone the Repository**
 ```bash
 git clone https://github.com/Deep-20/BookHive.git
-cd library-management
+cd BookHive
 ```
 
 2. **Environment Setup**
 Create a `.env` file in the server directory with the following variables:
+Copy & Paste the contents of .env File from the User Manual.docx file into the create .env file
+
+OR Else
 ```
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET="secret"
+MONGO_URI=your_mongodb_connection_string
+SESSION_SECRET="secret"
 PORT=8080
 ```
 
@@ -36,7 +39,7 @@ To get MONGODB_URI,
   8) You will find the string there
 
 Your MONGODB_URI will look as follows
-mongodb+srv://<DB_Username>:<DB_Password>@cluster0.nyxubl7.mongodb.net/BookHive?retryWrites=true&w=majority&appName=Cluster0
+"mongodb+srv://<DB_Username>:<DB_Password>@cluster0.nyxubl7.mongodb.net/BookHive?retryWrites=true&w=majority&appName=Cluster0"
 
 Replace DB_Username with your database username
 Replace DB_Password with your database password
@@ -44,6 +47,7 @@ BookHive is the database name for this app
 
 3. **Install Dependencies**
 ```bash
+# From the root directory
 npm install
 ```
 
@@ -63,7 +67,7 @@ The server will run on `http://localhost:8080` and the client on `http://localho
 Use these credentials to test the application:
 
 **Librarian Account:**
-- Email: admin@gmail.com
+- Email: admin@example.com
 - Password: secureAdminPassword123
 
 ## Features
