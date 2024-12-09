@@ -64,7 +64,7 @@ The server will run on `http://localhost:8080` and the client on `http://localho
 Use these credentials to test the application:
 
 **Librarian Account:**
-- Email: admin@gmail.com
+- Email: admin@example.com
 - Password: secureAdminPassword123
 
 ## Features
