@@ -14,7 +14,7 @@ A fullstack web application for library management built using the MERN stack (M
 1. **Clone the Repository**
 ```bash
 git clone https://github.com/Deep-20/BookHive.git
-cd library-management
+cd BookHive
 ```
 
 2. **Environment Setup**
