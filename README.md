@@ -51,7 +51,7 @@ npm install
 
   From root folder
 ```bash
-cd client
+cd server
 npm install
 ```
 
