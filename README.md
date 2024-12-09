@@ -19,6 +19,9 @@ cd BookHive
 
 2. **Environment Setup**
 Create a `.env` file in the server directory with the following variables:
+Copy & Paste the contents of .env File from the User Manual.docx file into the create .env file
+
+OR Else
 ```
 MONGO_URI=your_mongodb_connection_string
 SESSION_SECRET="secret"
